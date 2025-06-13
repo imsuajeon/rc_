@@ -64,9 +64,11 @@
 ![image](https://github.com/user-attachments/assets/b7192fcf-0756-48f1-9e34-a74a9d876dc7)
 
 원본 프레임에서 차량 바로 앞 노면만 잘라낸 부분
+
 ![image](https://github.com/user-attachments/assets/255e9dc7-3665-4754-a3f7-89cdc227d9b5)
 
 자른 사진을 그레이스케일로 변환한 뒤 가우시안 블러를 적용하여 Otsu 기법으로 이진화
+
 ![image](https://github.com/user-attachments/assets/013a882c-a7b2-41a3-b997-e287c59fcde9)
 
 모폴로지 클로징 연산 결과
