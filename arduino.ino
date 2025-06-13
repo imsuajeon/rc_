@@ -127,10 +127,12 @@ void loop() {
           esc.writeMicroseconds(THROTTLE_FWD);
           digitalWrite(7, LOW); digitalWrite(8, LOW); digitalWrite(9, HIGH);
           break;
-        case 'D':
+        case 'B':                    // 후진
           steering.writeMicroseconds(SERVO_CENTER);
-          esc.writeMicroseconds(THROTTLE_STOP);
-          digitalWrite(7, LOW); digitalWrite(8, HIGH); digitalWrite(9, HIGH);
+          esc.writeMicroseconds(THROTTLE_BWD);
+          digitalWrite(7, HIGH);
+          digitalWrite(8, HIGH);
+          digitalWrite(9, HIGH);
           break;
       }
     }
