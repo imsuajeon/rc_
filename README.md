@@ -35,6 +35,9 @@
 | S    | 직진           | 7 LOW, 8 LOW, 9 HIGH  | 핀 9(전진등) 켜짐              |
 | D    | 후진            | 7 HIGH, 8 HIGH, 9 HIGH | 핀 7(우회전)+핀 8(좌회전)+핀 9(전진) 동시 켜짐 |
 
+![image](https://github.com/user-attachments/assets/7643b38f-2658-41f9-b974-e0689f9f8751)
+
+
 ---
 
 ### 2. Raspberry Pi (`line.py`)
